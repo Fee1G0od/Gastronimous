@@ -1,0 +1,100 @@
+*{
+  margin:0;
+  padding:0;
+
+}
+a{text-decoration: none;}
+.all
+{
+  max-width:1280px;
+
+  height:auto;
+  margin: auto;
+  background:url(img/background1.jpg);
+}
+.content
+{
+  overflow: hidden;
+  max-width:1030px;
+  height: auto;
+  margin: auto;
+  padding:3% 0 0 0;
+}
+.logo
+{
+  float: left;
+  margin-left:10%;
+  width:35%;
+}
+.logo h3
+{
+  text-align: center;
+  font-family:Lady;
+  font-size:2.2em;
+  color: #299282;
+
+}
+.leftcontent h3{
+  font-family: BODHT;
+}
+.logo p
+{
+  text-align:center;
+  font-family:Italic;
+  color: grey;
+  font-size: 0.9em;
+}
+
+.leftcontent
+{
+  float:left;
+  color: grey;
+  width: 25%;
+}
+
+.leftcontent p
+{
+  padding-top:5%;
+  font-family:italic;
+  font-size:0.8em;
+}
+.search
+{
+float: right;
+width:20%;
+
+margin-top:2%;
+}
+.search input
+{
+  border-radius:20px 20px 20px 20px;
+  outline:none;
+  background:url(img/search.jpg);
+  background-position: right;
+  height:15px;
+  width:95%;
+}
+.menu{
+  background: url(img/menu.png)no-repeat;
+  width: auto;
+  height: 100px;
+  margin: 10% 0 0 0;
+}
+.menu ul{
+font-family: GLASGOW;
+font-color: #87391b;
+  padding-top:2.2%;
+  outline: 1px solid red;
+}
+.menu ul li{
+
+  display: inline-block;
+  margin-right: 7%;
+  outline: 1px solid red;
+}
+.menu ul li a{
+    font-size: 17pt;
+}
+.menu ul li:nth-child(1){
+  margin-left: 4.5%;
+}
